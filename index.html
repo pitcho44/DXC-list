@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Schedule</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="SearchFonct">
+    <div class="MembreSearch">
+      <p>DXC</p>
+      <input placeholder="Search For Members"/>
+    </div>
+    <div class="pagination">
+      <div id="prev-week"><i class="fa-solid fa-chevron-left"></i></div>
+      <div id="next-week"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
+  </div>
+
+  <table id="schedule-table">
+    <thead>
+      <tr id="header-row">
+        <!-- Colonnes générées dynamiquement par JavaScript -->
+      </tr>
+    </thead>
+    <tbody id="schedule-body">
+      <!-- Lignes du tableau générées dynamiquement par JavaScript -->
+    </tbody>
+  </table>
+</div> 
+<script src="script.js"></script>
+</body>
+</html>
